@@ -2,7 +2,5 @@ title: Blog Bibliotheks- und Archivinformatik
 author: Lara
 email: lara.pfister@stud.fhgr.ch
 description: > # this means to ignore newlines
-Lerntagebuch im Kurs Bibliotheks- und Archivinformatik FS2020
-
 show_excerpts: true # set to false to remove excerpts on the homepage
 theme: minima
