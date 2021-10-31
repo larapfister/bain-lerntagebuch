@@ -1,7 +1,7 @@
 ---
-title: Lerntagebuch
+title: Lerntagebuch Bibliotheks-und Archivinformatik
 ---
 
-## Willkommen zu meinem Lerntagebuch
+## Willkommen
 
-Ich freue mich, dass Du da bist. Ich schreibe hier über meine Erfahrungen im Kurs **Bibliotheks- und Archivinformatik**.
+Hier schreibe ich über meien Erfahrungen im Modul Bibliotheks-und Archivinformatik im HS 2021 im Studiengang Informationswissenschaft an der FHGR.
