@@ -1,0 +1,21 @@
+title: "Konfiguration Suche und Facetten"
+date: 2021-12-10
+---
+<h3>Übung Konfiguration Suche und Facetten</h3>
+<p>Da es bereits einige Wochen her ist, dass ich mich das letzte Mal mit BAIN beschäftigte, wusste ich nicht, mehr, ob ich VuFind bereits installiert hatte oder nicht. Schnell merkte ich jedoch, dass mein Root-Passwort für MariaDB nicht, wie in der Anleitung erklärt, leer war und fand es schliesslich in meinen Handnotizen. Der Rest der Installation und auch der Testimport hatten dank den klaren Anleitungen problemlos funktioniert. Ich nehmen mir für die Zukunft vor, gemachtes besser zu dokumentieren, um damit nicht so viel Zeit zu verlieren. </p>
+<p>Für die Übung soll das Youtube Video <a href=" https://www.youtube.com/watch?v=qFbW8u9UQyM&list=PL5_8_wT3JpgE5rv38PwE2ulKlgzBY389y&index=5"> VuFind: Configuring Search and Facet Settings</a> geschaut und die gezeigten Inhalte selbst ausgeführt werden. </p>
+<p>Es werden drei Konfigurationsdateien vorgestellt, mit denen man die Suche und ihre Darstellung im VuFind Interface anpassen kann. Als erstes die Datei searches.ini. Hier können die «search handlers» angepasst werden. Dies umfasst Optionen wie Titel oder Autor. Beispielsweise kann man hier die Reihenfolge oder die Bezeichnung der Suchoptionen festlegen. Im Video wird dies sehr anschaulich gezeigt (Abb.1 und 2). Möglich ist beispielsweise auch durch die Option default_Limit die Anzahl der Suchergebnisse, die auf einer Seite dargestellt werden sollen, zu ändern.</p>
+<a href="https://ibb.co/y5Lw4k5"><img src="https://i.ibb.co/k0YRmD0/person-who-created-stuff-1.png" alt="person-who-created-stuff-1" border="0"></a>
+<h6><i>Abb.1: In der Datei searches.ini wird die Bezeichnung für den Autor geändert. </i></h6>
+
+
+<a href="https://ibb.co/KWJ2sPQ"><img src="https://i.ibb.co/zZzX2ML/person-who-created-stuff.png" alt="person-who-created-stuff" border="0"></a>
+<h6><i>Abb.2: Im User Interface von VuFind wird dann der geänderte Begriff angezeigt. </i></h6>
+
+<p>Die zweite vorgestellte Konfigurationsdatei war facets.ini. Diese erlaubt es, Facetten, die auf der Seite neben den Suchergebnissen angezeigt werden, anzupassen. So beispielsweise kann man wichtige Facetten zuoberst platzieren und andere deaktivieren.</p>
+<p> In der Konfigurationsdatei searchspecs.yaml sind die einzelnen Search handlers wie Autor oder Titel aufgeführt und alle dazugehörigen Felder, die Informationen zum jeweiligen search handler enthalten. Zudem kann hier für das Suchranking selbst festgelegt werden, welche Relevanz den einzelnen Feldern zugeordnet wird (Abb.3). </p>
+<a href="https://ibb.co/wM2dG35"><img src="https://i.ibb.co/Lns0jbV/3-8.png" alt="3-8" border="0"></a>
+<h6><i>Abb.3: Unter Author sind alle Felder aufgelistet, die Informationen zum Autorenthalten. author hat hier für das Suchranking eine 100 mal höhere Gewichtung als author2. </i></h6>
+<p>Ich habe einige Dinge parallel zum Video ausprobiert und war erstaunt, wie einfach sehr vieles möglich ist. Das Video fand ich sehr verständlich gemacht mit dem direkten Vergleich der Konfigurationsdateien und dem VuFind Interface. Obwohl ich nicht alles selbst ausprobiert habe, gibt es einen sehr anschaulichen Überblick. </p>
+
+
